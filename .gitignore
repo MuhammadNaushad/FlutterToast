@@ -26,10 +26,17 @@ build/
 
 # VS Code
 .vscode/
+!example/.vscode/
+!example/.vscode/launch.json
 
 # IntelliJ / Android Studio
 *.iml
 .idea/
+!fluttertoast.iml
+
+# Keep example wrappers tracked for reproducible builds
+!example/android/gradlew
+!example/android/gradlew.bat
 
 # Misc
 *.log

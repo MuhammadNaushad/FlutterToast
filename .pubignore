@@ -1,6 +1,7 @@
 # Exclude IDE and system files from package
 .idea/
 .vscode/
+**/.vscode/
 *.iml
 
 # Exclude test artifacts (if not meant for users)
@@ -14,3 +15,7 @@ build/
 # .pubignore
 .idea/
 android/.idea/
+
+# Exclude checked-in files that are gitignored and not needed for consumers
+example/android/gradlew
+example/android/gradlew.bat
