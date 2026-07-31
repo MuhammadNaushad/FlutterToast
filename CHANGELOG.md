@@ -1,3 +1,7 @@
+## [10.0.0]
+- Migrated Android plugin and example app to built-in Kotlin compiler options.
+- Updated minimum supported SDK versions to Flutter 3.44 and Dart 3.12.
+
 ## [9.1.0]
 - Migrated ios to SPM
 
